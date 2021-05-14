@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BabyProdigy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width">
+
+
+    
+    <link rel = "Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link rel="Stylesheet" href="Location.css">
+   
+    
+
+    
+    </head>
+
+<body>
+    
+    
+  <!-- Menu-->
+    
+    <div class = "ui vertical left inverted sidebar menu" id = "menu">
+    <a class="item" id ="item5" href="index.html"><i class="home icon"></i>Home </a>
+        <a class="item" id = "item4" href = "Products.html"><i class="fighter jet icon"></i>Products</a>
+        <a class="item" id = "item3" href="Location.html">
+    <i class="map icon"></i>Location
+  </a>
+        <a class="item" id = "item1" href="Extra.html">
+    <i class="gem icon"></i>Extra
+  </a>
+        <a class="item" id = "item2" href="ContactUs.html">
+    <i class="phone icon"></i>Contact us
+  </a>
+    
+    </div> 
+ 
+    <div class = "ui fixed basic menu " id ="menuBar">
+    <div id = "toggle" class = "item">
+        <i class="sidebar blue icon " id = "menuIcon">  </i>
+        
+        </div>
+    
+    </div>
+        
+    <!-- End Menu-->
+
+    
+   
+
+    
+    <div class="pusher">
+    <div class = "ui container" id = "container1">
+    
+    
+     <br>
+     <h2 id ="location"> In order to Locate us , let us locate you first !  <i class = "ui blue search icon"></i> </h2> 
+        </div>
+        <div id = "location2">
+        <button id = "locateMe" onclick="getLocation()">Where Am I ?</button>
+
+<p id="demo"></p>
+        </div>
+      
+    </div>
+        
+     
+    
+   <!-- Payment Method code here(Debit/credit cards)--> 
+    
+   
+    
+   
+    
+    <script> 
+    $('#toggle').click(function(){
+        $('.ui.sidebar').sidebar('toggle');
+    }); 
+    </script>
+    
+    <script>
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+  
+</body>
+
+</html>

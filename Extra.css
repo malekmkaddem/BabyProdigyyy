@@ -1,0 +1,114 @@
+body{
+      margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+      
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+background-image: url("extra.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;   
+
+    }
+    
+    
+        
+        
+    
+    #menu{
+        
+      
+        display:flex;
+       font-size:50%;
+        width: 50%;
+        
+    }
+       
+    
+    
+    h1{
+   text-align: center;
+}
+p{
+    font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    opacity:90%;
+    
+    
+   width: 100%;
+    
+    float: right;
+}
+    
+  
+    
+@media screen (orientation: landscape) , (max-width:660px) {
+    body{
+      margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+      
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+background-image: url("extra.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;   
+
+    }
+    
+    
+        
+        
+  
+     #menu{
+        display:flex;
+       font-size:50%;
+        width: 60%;
+       
+    }
+    
+    #menuIcon{
+     background: none;
+        background-color: none;
+        float: left;
+        display: flex;
+        color: black;
+    }
+   
+       
+    
+    
+    h1{
+   text-align: center;
+}
+p  {
+  font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+}
+    h3{
+        font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: red;
+        font-family: cursive;
+        
+    }
+    
+ 
+        
+	}
+}

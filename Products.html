@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BabyProdigy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width">
+
+
+    
+    <link rel = "Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <link rel="Stylesheet" href="Products.css">
+   
+    
+
+    
+    </head>
+
+<body>
+    
+    
+   <!-- Menu-->
+    
+    <div class = "ui vertical left inverted sidebar menu" id = "menu">
+    <a class="item" id ="item5" href="index.html"><i class="home icon"></i>Home </a>
+        <a class="item" id = "item4" href = "Products.html"><i class="fighter jet icon"></i>Products</a>
+        <a class="item" id = "item3" href="Location.html">
+    <i class="map icon"></i>Location
+  </a>
+        <a class="item" id = "item1" href="Extra.html">
+    <i class="gem icon"></i>Extra
+  </a>
+        <a class="item" id = "item2" href="ContactUs.html">
+    <i class="phone icon"></i>Contact us
+  </a>
+    
+    </div> 
+ 
+    <div class = "ui fixed basic menu " id ="menuBar">
+    <div id = "toggle" class = "item">
+        <i class="sidebar blue icon " id = "menuIcon">  </i>
+        
+        </div>
+    
+    </div>
+        
+    <!-- End Menu-->
+
+    
+   
+
+    
+    <div class="pusher">
+    <div class = "ui container" id = "container1">
+    
+    <p class ="ui big header"> Our products</p>
+     <br>
+     <h2 id ="sentence1"> We proud ourselves that all our toys offered to you through our website or in-srote purshase are carefully designed , checked and re-checked to ensure the best experience and safety to your future prodigy kid.  </h2> 
+        </div>
+        <br>
+        <br>
+    <div class = "ui container" id = "container2">
+    <!-- Products List (Collapsable Style)-->
+    <div class="ui styled accordion" id = "accordion">
+  <div class="title">
+    <i class="info icon"></i>
+    Building Toy
+  </div>
+  <div class="content">
+    <p class="price">$39.99 </p>
+      <p>Creative - Brain stimulating cubic with different shapes and colors.  </p>
+      <img class="image0" src = "kids-intellectual-toy.jpg" alt="a cubic puzzle looking like to help kids learn shapes and colors">
+      
+  </div>
+  <div class="title">
+    <i class="info icon"></i>
+    AI Toy 
+  </div>
+  <div class="content">
+    <p class="price">$189.99 </p>
+      <p> Robot iSmart! Allow your kid to learn while playing! Using voice commands to interact with Robot iSmart to learn words and numbers.   </p>
+      
+      <img class = "image2" src="index1.jpeg" alt = " a clever robot that performs multiple tasks from voice commands to math teaching">
+  </div>
+  <div class="title">
+    <i class="info icon"></i>
+   Fun Toy
+  </div>
+  <div class="content">
+    <p class="price">$24.99 </p>
+      <p> a color puzzle that teaches colors and pave the way to early drawing</p>
+      <img class="image3" src = "81bBfrpqFhL._SX%20466_.jpg" alt="a  fun picture puzzle ">
+      
+  </div>
+     </div>   
+</div>
+   
+  
+    <br>
+    <br>
+    <div class = "ui container" id = "container3">
+    <p id ="sentence2">  All our toys include a life waranty!
+        Our experts and engineers are great, and so is the  Product they deliver! We guarantee a robust, solid, and durable toy that is expected to last for a duration of a lifetime! Though we know that things can go wrong, and kids happen!
+        Story short ... They break it ? We fix it or replace it. Period.</p>
+        </div>
+    </div>
+        
+     
+    
+   <!-- Payment Method code here(Debit/credit cards)--> 
+    
+   
+    
+   
+    <script> $('.ui.accordion').accordion();</script>
+    <script> 
+    $('#toggle').click(function(){
+        $('.ui.sidebar').sidebar('toggle');
+        
+        
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+body{
+     background-image: url("productBackGround.jpg");
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size: cover;
+    
+}
+
+
+.ui.styled.accordion{
+    opacity: 95%;
+    background-color:lightcyan;
+}
+
+p{
+    font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    opacity:90%;
+    
+    display: flex;
+   width: 100%;
+    
+}
+#menu{
+        
+      
+        display:flex;
+       font-size:100%;
+        width: 20%;
+
+@media screen (orientation: landscape) , (max-width:660px) {
+    body{
+      margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+      background: black;
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    #accordion{
+        width: 100%;
+        font-size: 60%;
+        background-color:skyblue;
+      
+    }
+    
+  
+       img{
+        display:flex;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    
+    h1{
+   
+
+        border: 6px solid black ;
+        
+        border-radius: 40%;
+}
+
+    
+    
+  footer {
+	display: inline-block;
+        width: 100%;
+        height: auto;
+        line-height: 2;
+        color:palevioletred;
+        font-family: cursive;
+        
+	}
+    
+     #menu{
+        display:flex;
+       font-size:50%;
+        width: 50%;
+       
+    }
+    
+    #menuIcon{
+     background: none;
+        background-color: none;
+        float: left;
+        display: flex;
+        
+    }
+    #container{
+    
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: whitesmoke;
+    
+
+        
+    }
+    
+    p{
+    font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+}
+    #sentence1 {
+        font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+    }
+    
+    
+     body.pushable>.pusher {
+   
+        background-color: black;
+       
+ 
+    
+        
+}
+   

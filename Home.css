@@ -1,0 +1,139 @@
+body{
+   background-image: url("gadget-for-kids.jpg"); 
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:auto;   
+    background-color: black;
+    
+}
+
+h1{
+   
+
+}
+p{
+    font-size: 18pt;
+    opacity:90%;
+    text-align:justify;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+#footer{
+	  text-align: center;
+    font-size: 20pt;
+  background-color: DarkSalmon;
+  color: white;
+   
+    margin: 0 10px;
+
+        
+	}
+  #menu{
+        
+      
+        display:flex;
+       font-size:100%;
+        width: 20%;
+
+@media screen (orientation: landscape) , (max-width:660px) {
+    body{
+      margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+        
+    background-color: black;
+       
+    }
+
+    body.pushable>.pusher {
+
+   
+        background-color: black;
+        background-image: url("gadget-for-kids.jpg"); 
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size :cover;
+         height: 100%;
+        width: 100%;
+    
+     
+    
+    }
+    
+    
+        
+
+    
+       img{
+        display:flex;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    
+    h1{
+   
+
+        border: 6px solid black ;
+        
+        border-radius: 40%;
+}
+p{
+    font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    
+    
+    display: flex;
+   width: 100%;
+    color: white;
+}
+    
+    
+  #footer{
+	display: inline-block;
+        width: 100%;
+        height: auto;
+      
+        color:palevioletred;
+        font-family: cursive;
+        
+	}
+    
+     #menu{
+        display:inline-block;
+       font-size:50%;
+        width: 50%;
+         
+         
+       
+    }
+    
+    #menuIcon{
+        
+        float: left;
+        display:inline-block;
+        color: white;
+    }
+   
+    menuBar{
+        float: left;
+        display:flex;
+        background-color: black;
+    } 
+   
+    .pusher{
+           font-size:50%;
+        line-height: 1.5;
+        text-align:center;
+    display: flex;
+   width: 100%;
+    color: whitesmoke;
+    }
+        
+
+    }

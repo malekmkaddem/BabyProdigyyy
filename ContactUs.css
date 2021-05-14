@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    width: 50%;
+    height: auto;
+}
+#contactInfo{
+    margin: auto;
+  width: 50%;
+  border: 3px solid pink;
+  padding: 10px;
+}
+
+#menu{
+        
+      
+        display:flex;
+       font-size:100%;
+        width: 20%;
+}
+@media screen (orientation: landscape) , (max-width:660px) {
+
+    body{
+        
+        background-color: black;
+        margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+    }
+    #menu{
+        display:flex;
+       font-size:50%;
+        width: 50%;
+    }
+    
+    
+    #contactInfo{
+        font-size:100%;
+        line-height: 1.5;
+        text-align:center;
+    display:inline-block;
+    width: 100%;
+    border: 5px solid pink;
+    font-family: cursive;
+}
+
+    p{
+    font-size:40%;
+        line-height: 1.5;
+        text-align:center;
+    display: flex;
+   width: 100%;
+    color: white;
+        font-family: cursive;
+}
+    #menuHorizental{
+        display: none;
+    }
+    
+    body.pushable>.pusher {
+   
+        background-color: black;
+    
+    }
+    #form{
+       margin:auto;
+  width: 50%;
+  border: 3px solid pink;
+  padding: 10px;
+        display: inline-block;
+        background-color:darkolivegreen;
+
+    }
+}
